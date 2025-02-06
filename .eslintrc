@@ -5,8 +5,12 @@
     "browser": true,
     "node": true
   },
-  "extends": ["eslint:recomended","google"],
+  "extends": ["eslint:recommended","google"],
   "rules": {
-
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
+    "require-jsdoc": "off"
   }
 }
